@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desarrollador</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styleDesarrollador.css">
+</head>
+<body>
+
+    <header class="header">
+
+        <div class="contenedor">
+            <div class="barra">
+                <a class="logo" href="index.html">
+                    <h1 class="logo__nombre no-margin centrar-texto">Tienda<span class="logo__bold">DeCafé</span></h1>
+                </a>
+
+                <nav class="navegacion">
+                    <a href="index.html" class="navegacion__enlace">Tienda</a>
+                    <a href="desarrollador.html" class="navegacion__enlace">Desarrollador</a>
+                    <a href="calculadora.html" class="navegacion__enlace">Calculadora</a>
+                </nav>
+            </div>
+        </div>
+
+        <div class="header__texto">
+            <h2 class="no-margin">Mi nombre es Santiago Méndez</h2>
+            <p class="no-margin">Soy estudiante de Licenciatura en Sistemas (UNNE)</p>
+        </div>
+    </header>
+
+    <main class="contenedor">
+        <h3 class="centrar-texto">Sobre Mi</h3>
+
+        <div class="sobre-nosotros">
+            <div class="sobre-nosotros__imagen">
+                <img src="img/mi.jpg" alt="imagen nosotros">
+            </div>
+
+            <div class="sobre-nosotros__texto">
+                <p>Tengo 19 años y vivo en la ciudad de corrientes, me gusta mucho programar y eso lo fui descubriendo mientras iba avanzando en la
+                    carrera ya que este es un mundo muy nuevo para mi. Soy una persona muy positiva que intenta ver siempre para adelante y
+                    sacar las cosas buenas de todo, algo que me parece muy importante para el mundo de la programacion donde se puede experimentar
+                    mucha frustracion en variadas ocasiones.
+                </p>
+            </div>
+        </div>
+
+        <h3 class="centrar-texto">Contacto</h3>
+
+        <div class="contacto-bg"></div>
+
+        <form class="formulario">
+            <div class="campo">
+                <label class="campo__label" for="nombre">Nombre</label>
+                <input 
+                    class="campo__field"
+                    type="text" 
+                    placeholder="Tu Nombre" 
+                    id="nombre"
+                >
+            </div>
+            <div class="campo">
+                <label class="campo__label" for="email">E-mail</label>
+                <input 
+                    class="campo__field"
+                    type="email" 
+                    placeholder="Tu E-mail" 
+                    id="email"
+                >
+            </div>
+            <div class="campo">
+                <label class="campo__label" for="mensaje">Mensaje</label>
+                <textarea 
+                    class="campo__field campo__field--textarea"
+                    id="mensaje"
+                ></textarea>
+            </div>
+
+            <div class="campo">
+                <input type="submit" value="Enviar"  class="boton boton--primario">
+            </div>
+        </form>
+
+        <h3 class="centrar-texto">Redes Sociales</h3>
+
+        <div class="icons">
+            <a href="https://www.instagram.com/santi_mendez13/" class="icons__icon">Instagram</a>
+            <a href="mailto:santimendezsam@gmail.com?subject= &amp;body=" class="icons__icon" id="sendemail"> E-mail </a>
+            <a href="https://www.linkedin.com/feed/" class="icons__icon">Linkedin</a>
+            <a href="https://github.com/SantiMendezz?tab=repositories" class="icons__icon">GitHub</a>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="contenedor">
+            <div class="barra">
+                <a class="logo" href="index.html">
+                    <h1 class="logo__nombre no-margin centrar-texto">Tienda<span class="logo__bold">DeCafé</span></h1>
+                </a>
+
+                <nav class="navegacion">
+                    <a href="index.html" class="navegacion__enlace">Tienda</a>
+                    <a href="desarrollador.html" class="navegacion__enlace">Desarrollador</a>
+                    <a href="calculadora.html" class="navegacion__enlace">Calculadora</a>
+                </nav>
+            </div>
+        </div>
+    </footer>
+    
+    <script src="js/modernizr.js"></script>
+</body>
+</html>

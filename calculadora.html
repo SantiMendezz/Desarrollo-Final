@@ -1,0 +1,46 @@
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bakbak+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="header">
+        <a href="index.html">
+            <img class="header__logo" src="img/logoNav.png" alt="Logo">
+        </a>
+    </header>
+
+    <!-- Navegador -->
+    <nav class="navegacion">
+        <a class="navegacion__enlace" href="index.html">Tienda</a>
+        <a class="navegacion__enlace" href="desarrollador.html">Desarrollador</a>
+        <a class="navegacion__enlace navegacion__enlace--activo" href="calculadora.html">Calculadora</a>
+    </nav>
+
+      <form>
+        <h2 align="center">Calculadora</h2>
+        <p align=center>
+          <input type="number" size="55" id="id1" />
+          <input type="text" id="id2" />
+          <input type="number" size="55" id="id3" />
+          <input type="button" value="calcular" id="id4" />
+        </p>
+
+          <h1 align=center>El resultado es...</h1>
+          <h1 align=center id="id5">0</h1>
+
+          <p align="center"><input type="reset" value="borrar" /></p>
+      </form>
+
+
+      <script src="js/código.js"></script>
+  </body>
+</html>
